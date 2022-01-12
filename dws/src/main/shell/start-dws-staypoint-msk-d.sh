@@ -25,8 +25,8 @@ spark-submit \
 --master yarn-client \
 --class com.shujia.dws.DWSStayPointMskDay \
 --num-executors 1 \
---executor-cores 3 \
---executor-memory 6G \
+--executor-cores 1 \
+--executor-memory 2G \
 --jars common-1.0-SNAPSHOT.jar \
 --conf spark.sql.shuffle.partitions=20 \
 dws-1.0-SNAPSHOT.jar $day_id
