@@ -1,5 +1,6 @@
 package com.shujia.dwd
 
+import com.shujia.common.SparkTool
 import org.apache.spark.sql.{DataFrame, Dataset, Row, SaveMode, SparkSession}
 /**
  * @author chengjin

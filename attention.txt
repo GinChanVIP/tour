@@ -1,0 +1,56 @@
+step1-ods层
+1.在hdfs的user目录下面为每一个用户都创建一个目录(因为临时文件要存到user下面普通用户没权限)
+
+2.先在hive创建位置融合表
+
+3.t+1模式,从hive中导入ars参数传递的时间进行融合
+
+4.对手机号进行加盐处理使用md5脱敏手机号
+
+5.因为要hive元数据，所以要在集群中运行,使用dwd用户执行
+
+6.去hdfs和hive中查看位置融合表中是否有数据
+
+step2-dwd层
+1.编写shell脚本,上传到Linux,在Linux运行提交命令,注意换行符格式是LF还是CRLF(editor->CodeStyle->lineSep->unix)
+
+2.将初始化环境的代码放到工具类中封装成抽象方法,子类重写run
+
+3.获取当前子类的类名,day_id当做成员变量传递,spark环境当做参数传递
+
+step3-dws层
+1.将位置融合表转换为停留表(一个人在同一个区域停留连续时间就当成一条数据来处理)
+    意思就是多条数据合并成一条数据
+    专业名词:在时间线上进行聚类
+
+2.按手机号分组,按时间排序!!!  lag取的是网格编号,别犯傻又取开始时间！！！
+
+3.新建一列,用来打标记,相同打上0,不同打上1
+    打1的作用:后面累加统计的时候聚成不同的类
+    打0的作用:0是不做计数的,相同网格聚成同一类
+
+4.新建一列,累加统计1的数量,sum()开窗,为每一个打上类型,这样连续时间内相同网格的点就会归为一类
+
+5.代码实现
+    spark-sql方式:
+    (时间不能重复,时间一样,排序的时候谁在前谁在后不一定,会导致分类错误)
+
+    select
+    mdn,grid,category,min(sdate),max(sdate)
+    from (
+    select
+    *,sum(flag) over(partition by mdn order by sdate) as category
+    from (
+    select
+    *,case when grid == beGrid then 0 else 1 end as flag
+    from (
+    select
+    mdn,sdate,grid,lag(grid,1,'') over(partition by mdn order by sdate) as beGrid
+    from merge
+    ) t1
+    ) t2
+    ) t3
+    group by mdn,grid,category;
+
+
+    DSL方式:
