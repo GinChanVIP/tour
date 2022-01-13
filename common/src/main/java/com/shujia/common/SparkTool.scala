@@ -13,6 +13,7 @@ import org.apache.spark.sql.SparkSession
 abstract class SparkTool extends Logging {
 
   var day_id: String = _
+  var month_id: String = _
 
   def main(args: Array[String]): Unit = {
     if (args.length == 0) {
@@ -21,12 +22,15 @@ abstract class SparkTool extends Logging {
 
     day_id = args(0)
 
+    //截取月
+    month_id = day_id.substring(0, 6)
+
     log.info(s"时间参数为: $day_id")
 
     log.info("创建spark环境")
     val spark: SparkSession = SparkSession
       .builder()
-      .appName("DWDResReignMergeLocationMskDay")
+      .appName(this.getClass.getSimpleName.replace("$", ""))
       .enableHiveSupport()
       .getOrCreate()
 

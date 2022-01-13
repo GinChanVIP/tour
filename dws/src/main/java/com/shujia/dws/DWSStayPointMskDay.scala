@@ -47,7 +47,7 @@ object DWSStayPointMskDay extends SparkTool {
       .groupBy($"mdn", $"grid_id", $"category", $"county_id")
       .agg(min("start_date") as "grid_first_time", max("end_date") as "grid_last_time")
       //计算用户在网格中的停留时间
-      .withColumn("duration", (unix_timestamp($"grid_last_time", "yyyyMMddHHmmss") - unix_timestamp($"grid_last_time", "yyyyMMddHHmmss")) / 60)
+      .withColumn("duration", (unix_timestamp($"grid_last_time", "yyyyMMddHHmmss") - unix_timestamp($"grid_first_time", "yyyyMMddHHmmss")) / 60)
       //获取网格中心点的经纬度
       .withColumn("longi", getLongi($"grid_id"))
       .withColumn("lati", getLati($"grid_id"))

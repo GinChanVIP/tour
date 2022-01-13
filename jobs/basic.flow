@@ -1,0 +1,27 @@
+---
+config:
+  day_id: $(new("org.joda.time.DateTime").minusDays(1).toString("yyyyMMdd"))
+
+nodes:
+
+  - name: start-dwd-res-regn-mergelocation-msk-d
+    type: command
+    config:
+      command: sh /home/dwd/start-dwd-res-regn-mergelocation-msk-d.sh ${day_id}
+
+
+  - name: start-dws-staypoint-msk-d
+    type: command
+    config:
+      command: sh /home/dws/start-dws-staypoint-msk-d.sh  ${day_id}
+    dependsOn:
+      - start-dwd-res-regn-mergelocation-msk-d
+
+
+  - name: start-ads-city-tourist-msk-d
+    type: command
+    config:
+      command: sh /home/ads/start-ads-city-tourist-msk-d.sh  ${day_id}
+    dependsOn:
+      - start-dws-staypoint-msk-d
+
