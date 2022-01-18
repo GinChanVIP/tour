@@ -18,7 +18,7 @@ object DIMScenicBoundary extends SparkTool {
 
     spark.sql(
       """
-        |insert into dim.dim_scenic_boundary
+        |insert overwrite table dim.dim_scenic_boundary
         |select * from ods.ods_scenic_boundary
         |
       """.stripMargin)

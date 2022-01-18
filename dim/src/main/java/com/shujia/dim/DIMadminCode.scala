@@ -18,7 +18,7 @@ object DIMadminCode extends SparkTool{
     spark
       .sql(
         """
-          |insert into dim.dim_admincode
+          |insert overwrite table dim.dim_admincode
           |select * from ods.ods_admincode
           |
         """.stripMargin)

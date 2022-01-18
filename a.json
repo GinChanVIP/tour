@@ -1,0 +1,2314 @@
+{
+  "status": "1",
+  "searchOpt": {
+    "city": "340100",
+    "pageSize": "20",
+    "pageIndex": "1",
+    "ac": "false",
+    "keyword": "古逍遥津",
+    "type": "4"
+  },
+  "data": {
+    "codepoint": 0,
+    "code": "1",
+    "suggestion": {},
+    "timestamp": "1642249685.35",
+    "lqii": {
+      "ppinfo": "[]",
+      "cache_directive": {
+        "cache_filter": {
+          "flag": "1",
+          "expires": "24"
+        },
+        "cache_all": {
+          "flag": "0"
+        }
+      },
+      "query_intent": {
+        "cate_list": "",
+        "type": "1000",
+        "cate": "",
+        "cate_ext": ""
+      },
+      "general_query_result": "0",
+      "general_flag": "",
+      "specialclassify": "0",
+      "view_region": "117.283178396,31.886312406,117.305995604,31.852086594",
+      "smartspot": "0",
+      "suggestcontent": "",
+      "category_brand_recognition_result": "0",
+      "pdheatmap": "",
+      "render_name_flag": "1",
+      "city_info_attr": {
+        "map_view_city": "340100",
+        "target_city": "3401",
+        "user_loc_city": ""
+      },
+      "is_current_city": "2",
+      "expand_range_tip": "",
+      "suggest_query": {
+        "data": [],
+        "col": "",
+        "row": ""
+      },
+      "change_query_tip": "",
+      "is_tupu_sug": "0",
+      "has_recommend": "0",
+      "brand_intent": {
+        "t_tag": "",
+        "hierarchy_strategy": "0",
+        "cate": "",
+        "hierarchy_idx": "-1",
+        "flag": "0",
+        "query_brand": "",
+        "name": ""
+      },
+      "suggestionview": "1",
+      "show_hand_drawing": "0",
+      "change_query_type": "",
+      "business": "",
+      "auto_query_cate_v1": "景点=0.994000\u0006景点|游乐园=0.994000",
+      "auto_query_cate_v2": "",
+      "car_icon_flag": "0",
+      "tips_info": {
+        "tip_rule": "",
+        "tips_back_gsid": "",
+        "result_city": "合肥市",
+        "target_keywords_list": [],
+        "result_adcode": "340100"
+      },
+      "slayer_type": "none",
+      "show_pic": "",
+      "recall_info": {
+        "query": "keywords:古逍遥津",
+        "range": ""
+      },
+      "is_view_city": "1",
+      "querytype": "5",
+      "category_brand_recognition_flag": 0,
+      "ww_info": {
+        "ww": {
+          "t_tag": "",
+          "poiid": ""
+        },
+        "is_ww": false
+      },
+      "self_navigation": "",
+      "rec_pos": {
+        "latlng": "31.869878:117.294410"
+      },
+      "auto_query_cate": "景点=0.994000\u0006景点|游乐园=0.994000",
+      "showaoi": "",
+      "utd_sceneid": "1000",
+      "distance_info": "",
+      "slayer": "0",
+      "target_view_city": "",
+      "call_taxi": "0",
+      "preload_next_page": "0",
+      "magic_box": {},
+      "activity": {
+        "new_year": {
+          "flag": "0",
+          "tip": ""
+        }
+      }
+    },
+    "is_general_search": "0",
+    "result": "true",
+    "keywords": "古逍遥津",
+    "message": "Successful.",
+    "total": "82",
+    "busline_list": [],
+    "bus_list": [],
+    "general_flag": "0",
+    "bounds": "117.290392;31.865882;117.297826;31.872090",
+    "version": "2.0-3.0.2014.1710",
+    "busline_count": "0",
+    "magicbox_data": {},
+    "interior_count": "0",
+    "poi_list": [
+      {
+        "rating": "2.7",
+        "tel": "0551-62614651;0551-62652163",
+        "typecode": "110101",
+        "areacode": "0551",
+        "address": "寿春路16号",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "117.29,31.8728,117.299,31.8655",
+        "longitude": "117.295057",
+        "review_total": "87",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B022702VYA",
+        "name": "古逍遥津",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [
+          {
+            "latitude": "31.865873",
+            "longitude": "117.29504"
+          }
+        ],
+        "recommend_flag": "3",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/b8b7cb64a9968db5377563e404df6147",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "value": "查看出入口、停车场",
+            "name": "parent_info"
+          },
+          {
+            "pys": "31.869952+++31.866185",
+            "poiids": "B02271900I+++B0FFF2QMDB",
+            "name": "parent_other_rel",
+            "pxs": "117.290690+++117.295124",
+            "childtype": "31+++31",
+            "poiname": "古逍遥津(西门)+++古逍遥津(南门)",
+            "address": "阜南路与宿州路交汇处+++寿春路16号",
+            "shortname": "西门+++南门",
+            "type": "array",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "value": "庐阳区",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "value": "三国时代著名的古战场",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "value": "117.29015,31.86979_117.290171,31.87_117.290174,31.870023_117.290184,31.870037_117.290201,31.87004_117.290225,31.870035_117.290679,31.869986_117.29074,31.869982_117.290785,31.869977_117.29081,31.869979_117.290829,31.86998_117.29084,31.869992_117.290845,31.870006_117.290848,31.870037_117.291068,31.87125_117.290888,31.871274_117.290952,31.871713_117.290976,31.871927_117.290935,31.872185_117.290932,31.872278_117.290984,31.872783_117.290992,31.872811_117.291006,31.872838_117.291027,31.872846_117.291058,31.87285_117.291094,31.872846_117.29137,31.872807_117.291686,31.872761_117.292329,31.872625_117.292624,31.87255_117.293032,31.87244_117.293521,31.872294_117.294008,31.872143_117.294039,31.872131_117.294182,31.87207_117.294266,31.872017_117.294289,31.871999_117.294437,31.871868_117.294596,31.871694_117.295355,31.87081_117.295419,31.870731_117.295462,31.870686_117.29559,31.870553_117.295684,31.870468_117.29577,31.870409_117.295842,31.870365_117.29598,31.870297_117.296898,31.869909_117.297498,31.869632_117.297737,31.869494_117.29809,31.869278_117.298475,31.869028_117.298528,31.868988_117.298571,31.868949_117.298703,31.86883_117.298714,31.868819_117.298766,31.86875_117.298778,31.868733_117.29883,31.868649_117.298856,31.86856_117.298867,31.868498_117.298884,31.868392_117.298951,31.867716_117.299005,31.866762_117.299024,31.866414_117.299019,31.865943_117.299008,31.865802_117.298997,31.865695_117.298986,31.865625_117.298967,31.865593_117.298943,31.86557_117.298913,31.865559_117.298878,31.865553_117.298836,31.865549_117.297479,31.865704_117.296219,31.865781_117.295438,31.865885_117.295072,31.865927_117.294203,31.866096_117.294052,31.866129_117.294018,31.866134_117.293994,31.866144_117.293977,31.866158_117.29397,31.866174_117.293967,31.86619_117.293977,31.86623_117.29399,31.866266_117.294039,31.866476_117.294104,31.866822_117.294155,31.866981_117.294394,31.867909_117.29441,31.867973_117.294418,31.868017_117.29442,31.868059_117.294415,31.868114_117.29441,31.868155_117.294402,31.868195_117.29439,31.868222_117.294372,31.868249_117.294278,31.868325_117.294078,31.868483_117.293965,31.868578_117.293814,31.86871_117.29375,31.868759_117.293507,31.86887_117.293493,31.868881_117.293472,31.868902_117.293464,31.868918_117.293463,31.868942_117.29349,31.869042_117.293492,31.869054_117.293491,31.869074_117.293482,31.869098_117.293477,31.869111_117.293467,31.869123_117.293445,31.869132_117.293402,31.86915_117.293185,31.86923_117.292939,31.869307_117.292806,31.86937_117.292722,31.869402_117.292681,31.86941_117.292094,31.869479_117.291683,31.869541_117.291347,31.869589_117.291101,31.869639_117.290595,31.869777_117.290571,31.869782_117.290543,31.869788_117.290509,31.869788_117.290484,31.869788_117.290456,31.869785_117.290268,31.869742_117.290224,31.869741_117.290186,31.869745_117.290165,31.869753_117.290154,31.869768_117.29015,31.86979",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "110101",
+        "disp_name": "古逍遥津",
+        "cpdata": "",
+        "latitude": "31.869009",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "3.5",
+        "tel": "",
+        "typecode": "150904",
+        "areacode": "0551",
+        "address": "寿春路16号古逍遥津公园",
+        "cityname": "合肥市",
+        "display_brand": "5parking",
+        "shape_region": "",
+        "longitude": "117.297202",
+        "review_total": "16",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B0FFG97KGU",
+        "name": "古逍遥津地下停车场",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [
+          {
+            "latitude": "31.865563",
+            "longitude": "117.297344"
+          }
+        ],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/bd34cfa610a7e531eb4b06d02245b310",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "value": "<font color='#666666'>车位：</font><font color='#666666'>总共有</font><font color='#666666'>137</font><font color='#666666'>个</font>",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "150904",
+        "disp_name": "古逍遥津地下停车场",
+        "cpdata": "",
+        "latitude": "31.865882",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "4.5",
+        "tel": "0551-62654575;0551-62614651",
+        "typecode": "110101",
+        "areacode": "0551",
+        "address": "寿春路16号",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.297826",
+        "review_total": "78",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B022717S0J",
+        "name": "古逍遥津-游园",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [
+          {
+            "latitude": "31.86575",
+            "longitude": "117.297527"
+          }
+        ],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/147cafc4073d85d01b20c2947b9a1558",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "value": "庐阳区",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "110101",
+        "disp_name": "古逍遥津-游园",
+        "cpdata": "",
+        "latitude": "31.866315",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "",
+        "tel": "",
+        "typecode": "150904",
+        "areacode": "0551",
+        "address": "宿州路253号",
+        "cityname": "合肥市",
+        "display_brand": "5parking",
+        "shape_region": "117.29,31.87,117.291,31.8697",
+        "longitude": "117.290392",
+        "review_total": "",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B02270JDM9",
+        "name": "古逍遥津西门停车场",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [
+          {
+            "latitude": "31.869753",
+            "longitude": "117.290067"
+          }
+        ],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/747fa1199930b495903bf929cc18fe75",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "value": "<font color='#666666'>车位：</font><font color='#666666'>总共有</font><font color='#666666'>49</font><font color='#666666'>个</font>",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "value": "117.290199,31.869995_117.290181,31.869783_117.290181,31.869769_117.290187,31.869757_117.290199,31.869752_117.29022,31.869747_117.290265,31.869748_117.290331,31.869763_117.290393,31.869782_117.290448,31.869793_117.290536,31.869797_117.290586,31.869793_117.2906,31.869794_117.29061,31.869798_117.290619,31.869809_117.290635,31.869953_117.290631,31.869968_117.290626,31.869976_117.290614,31.869984_117.290595,31.869987_117.290237,31.870023_117.290221,31.870021_117.290208,31.870017_117.290202,31.870009_117.290199,31.869995",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "150904",
+        "disp_name": "古逍遥津西门停车场",
+        "cpdata": "",
+        "latitude": "31.86989",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "",
+        "tel": "",
+        "typecode": "110000",
+        "areacode": "0551",
+        "address": "寿春路16号古逍遥津内",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.292046",
+        "review_total": "",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B0G2UP20Y4",
+        "name": "古逍遥津-温室",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [
+          {
+            "latitude": "31.869709",
+            "longitude": "117.290253"
+          }
+        ],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/chinesescenicfengjingmingsheng",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "value": "庐阳区",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "110000",
+        "disp_name": "古逍遥津-温室",
+        "cpdata": "",
+        "latitude": "31.872090",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "5.0",
+        "tel": "",
+        "typecode": "110200",
+        "areacode": "0551",
+        "address": "寿春路16号逍遥津内",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "117.292,31.8715,117.292,31.8711",
+        "longitude": "117.292231",
+        "review_total": "22",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B022717S1Z",
+        "name": "古逍遥津-张辽墓(装修中)",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [
+          {
+            "latitude": "31.869713",
+            "longitude": "117.290238"
+          }
+        ],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/22795a117b5dfa6d3b71bd5aa461c4de",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "value": "庐阳区",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "value": "117.292129,31.871457_117.29211,31.871456_117.292097,31.871447_117.292085,31.87111_117.292097,31.871085_117.292124,31.871077_117.292341,31.871074_117.292368,31.871078_117.292385,31.87109_117.292396,31.871104_117.292344,31.871431_117.292338,31.871449_117.292328,31.871455_117.29232,31.871456_117.292129,31.871457",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "110200",
+        "disp_name": "古逍遥津-张辽墓(装修中)",
+        "cpdata": "",
+        "latitude": "31.871259",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "",
+        "tel": "",
+        "typecode": "110200",
+        "areacode": "0551",
+        "address": "寿春路16号古逍遥津内",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.297719",
+        "review_total": "1",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B0FFIBDIGP",
+        "name": "逍遥津湖心亭",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/c9b126b4e8d8a38f1bd83bee06206f81",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "value": "庐阳区",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "110200",
+        "disp_name": "逍遥津湖心亭",
+        "cpdata": "",
+        "latitude": "31.868460",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "",
+        "tel": "",
+        "typecode": "110000",
+        "areacode": "0551",
+        "address": "寿春路16号",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.294099",
+        "review_total": "6",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B022717RCF",
+        "name": "古逍遥津-梅花山",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [
+          {
+            "latitude": "31.869711",
+            "longitude": "117.29025"
+          }
+        ],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/355799b59f395b778e8de6c3b77b0d91",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "value": "庐阳区",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "110000",
+        "disp_name": "古逍遥津-梅花山",
+        "cpdata": "",
+        "latitude": "31.871048",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "",
+        "tel": "",
+        "typecode": "110000",
+        "areacode": "0551",
+        "address": "寿春路16号逍遥津内",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.296391",
+        "review_total": "1",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B022718OHW",
+        "name": "逍遥津-长廊",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://aos-cdn-image.amap.com/sns/ugccomment/c76a7c11-df78-4a79-876c-66e243d7cbd0.jpg",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "value": "庐阳区",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "110000",
+        "disp_name": "逍遥津-长廊",
+        "cpdata": "",
+        "latitude": "31.868030",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "",
+        "tel": "",
+        "typecode": "200300",
+        "areacode": "0551",
+        "address": "寿春路16号古逍遥津附近",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.294825",
+        "review_total": "",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B0FFF06RRM",
+        "name": "古逍遥津-公共厕所",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/727b370d1b9ab3f6a6c70b4ea1d586b9",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "200300",
+        "disp_name": "古逍遥津-公共厕所",
+        "cpdata": "",
+        "latitude": "31.868946",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "",
+        "tel": "",
+        "typecode": "200300",
+        "areacode": "0551",
+        "address": "寿春路附近",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.296628",
+        "review_total": "",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B0FFG4F9A5",
+        "name": "古逍遥津-公共厕所",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/5617871ba310c5a615b6444e",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "200300",
+        "disp_name": "古逍遥津-公共厕所",
+        "cpdata": "",
+        "latitude": "31.866846",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "",
+        "tel": "",
+        "typecode": "200300",
+        "areacode": "0551",
+        "address": "寿春东路30号",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.294544",
+        "review_total": "",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B0FFMB6YEM",
+        "name": "古逍遥津-公共厕所",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [
+          {
+            "latitude": "31.866804",
+            "longitude": "117.294393"
+          }
+        ],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "200300",
+        "disp_name": "古逍遥津-公共厕所",
+        "cpdata": "",
+        "latitude": "31.866776",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "",
+        "tel": "",
+        "typecode": "200300",
+        "areacode": "0551",
+        "address": "寿春路16号逍遥津公园附近",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.295985",
+        "review_total": "",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B0FFF0E9Z4",
+        "name": "古逍遥津-公共厕所",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/5617871aa310c5a615b643fe",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "200300",
+        "disp_name": "古逍遥津-公共厕所",
+        "cpdata": "",
+        "latitude": "31.869688",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "",
+        "tel": "",
+        "typecode": "200300",
+        "areacode": "0551",
+        "address": "环城北路128号附近",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.294022",
+        "review_total": "",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B0FFFS6VU8",
+        "name": "古逍遥津-公共厕所",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/56178719a310c5a615b643b6",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "200300",
+        "disp_name": "古逍遥津-公共厕所",
+        "cpdata": "",
+        "latitude": "31.871339",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "3.0",
+        "tel": "",
+        "typecode": "080300",
+        "areacode": "0551",
+        "address": "寿春路16号逍遥津内",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.295787",
+        "review_total": "2",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B022719B6V",
+        "name": "逍遥津-赛车场",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/5617871aa310c5a615b643de",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "value": "查看出入口、停车场",
+            "name": "parent_info"
+          },
+          {
+            "pys": "31.869435",
+            "poiids": "B0FFMDTV7U",
+            "name": "parent_other_rel",
+            "pxs": "117.295578",
+            "childtype": "42",
+            "poiname": "古逍遥津赛车场售票处",
+            "address": "环城公园北路古逍遥津",
+            "shortname": "售票处",
+            "type": "array",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "080300",
+        "disp_name": "逍遥津-赛车场",
+        "cpdata": "",
+        "latitude": "31.868509",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "3.0",
+        "tel": "",
+        "typecode": "110000",
+        "areacode": "0551",
+        "address": "寿春路16号逍遥津内",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.294019",
+        "review_total": "4",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B022717S2Q",
+        "name": "古逍遥津-水榭",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [
+          {
+            "latitude": "31.869708",
+            "longitude": "117.290244"
+          }
+        ],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/96099c0d65d93afcd56887afc7f33c72",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "value": "庐阳区",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "110000",
+        "disp_name": "古逍遥津-水榭",
+        "cpdata": "",
+        "latitude": "31.869563",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "",
+        "tel": "",
+        "typecode": "110000",
+        "areacode": "0551",
+        "address": "寿春路16号古逍遥津内",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.296008",
+        "review_total": "",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B0FFJAH6TF",
+        "name": "逍遥宫",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/chinesescenicfengjingmingsheng",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "value": "庐阳区",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "110000",
+        "disp_name": "逍遥宫",
+        "cpdata": "",
+        "latitude": "31.869061",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "",
+        "tel": "",
+        "typecode": "200300",
+        "areacode": "0551",
+        "address": "寿春路664号附近",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.292258",
+        "review_total": "",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B022718VUD",
+        "name": "古逍遥津-公共厕所",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/56178719a310c5a615b643a7",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "200300",
+        "disp_name": "古逍遥津-公共厕所",
+        "cpdata": "",
+        "latitude": "31.871883",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "",
+        "tel": "",
+        "typecode": "110000",
+        "areacode": "0551",
+        "address": "寿春路16号古逍遥津内",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.295648",
+        "review_total": "",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B0H33CXOGZ",
+        "name": "竹园",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/chinesescenicfengjingmingsheng",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "value": "庐阳区",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "110000",
+        "disp_name": "竹园",
+        "cpdata": "",
+        "latitude": "31.866882",
+        "discount_flag": "0"
+      },
+      {
+        "rating": "3.5",
+        "tel": "",
+        "typecode": "110000",
+        "areacode": "0551",
+        "address": "寿春路16号逍遥津内",
+        "cityname": "合肥市",
+        "display_brand": "",
+        "shape_region": "",
+        "longitude": "117.297080",
+        "review_total": "5",
+        "cinemazuo_flag": "0",
+        "diner_flag": "0",
+        "id": "B022717S1K",
+        "name": "双鹤亭",
+        "group_flag": "0",
+        "distance": "0",
+        "entrances": [
+          {
+            "latitude": "31.866916",
+            "longitude": "117.297076"
+          }
+        ],
+        "recommend_flag": "0",
+        "exits": [],
+        "adcode": "340103",
+        "domain_list": [
+          {
+            "type": "html",
+            "id": "1015",
+            "name": "poiclosed"
+          },
+          {
+            "type": "img",
+            "id": "1003",
+            "name": "icon"
+          },
+          {
+            "type": "html",
+            "id": "1011",
+            "name": "traffic"
+          },
+          {
+            "type": "text",
+            "id": "1014",
+            "name": "roadaoi"
+          },
+          {
+            "type": "button",
+            "id": "1012",
+            "name": "ext_btn"
+          },
+          {
+            "type": "webimg",
+            "id": "1009",
+            "value": "http://store.is.autonavi.com/showpic/7f75652de3a96808fb18333559c72d59",
+            "name": "pic_info"
+          },
+          {
+            "type": "img",
+            "id": "1008",
+            "name": "overbooked"
+          },
+          {
+            "type": "img",
+            "id": "1007",
+            "name": "moreservice"
+          },
+          {
+            "type": "html",
+            "id": "1006",
+            "name": "tag"
+          },
+          {
+            "type": "text",
+            "id": "1005",
+            "name": "parent_info"
+          },
+          {
+            "type": "array",
+            "name": "parent_other_rel",
+            "id": "1004"
+          },
+          {
+            "type": "text",
+            "id": "1010",
+            "value": "庐阳区",
+            "name": "business_area"
+          },
+          {
+            "type": "html",
+            "id": "1002",
+            "name": "deepinfo"
+          },
+          {
+            "type": "html",
+            "id": "1001",
+            "name": "price"
+          },
+          {
+            "type": "text",
+            "id": "1013",
+            "name": "aoi"
+          }
+        ],
+        "newtype": "110000",
+        "disp_name": "双鹤亭",
+        "cpdata": "",
+        "latitude": "31.867093",
+        "discount_flag": "0"
+      }
+    ]
+  }
+}

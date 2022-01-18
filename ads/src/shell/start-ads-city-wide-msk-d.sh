@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 #***********************************************************************************
-# **  文件名称:start-dwd-res-regn-mergelocation-msk-d.sh
-# **  创建日期: 2021年7月29日
-# **  编写人员: qinxiao
-# **  输入信息: ddr，oidd,wcdr dpi
-# **  输出信息: 位置融合表
+# **  文件名称:start-ads-city-tourist-msk-d.sh
+# **  创建日期: 2022年1月14日
+# **  编写人员: GinChan
+# **  输入信息: 行政区配置表、游客表、用户画像表
+# **  输出信息: 宽表
 # **
-# **  功能描述: 计算位置融合表
+# **  功能描述: 宽表
 # **  处理过程:
 # **  Copyright(c) 2016 TianYi Cloud Technologies (China), Inc.
 # **  All Rights Reserved.
@@ -23,13 +23,20 @@ shell_home="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 #进入脚本目录
 cd $shell_home
 
-# 时间不能写死,请问shell里面怎么传参数
+
 day_id=$1
+
 
 spark-submit \
 --master yarn-client \
---class com.shujia.dwd.DWDResReignMergeLocationMskDay \
+--class ads.ADSCityWideMskDay \
 --num-executors 1 \
---executor-cores 2 \
---executor-memory 4G \
-dwd-1.0-SNAPSHOT.jar $day_id
+--executor-cores 1 \
+--executor-memory 2G \
+--conf spark.sql.shuffle.partitions=10 \
+--jars common-1.0-SNAPSHOT.jar \
+ads-1.0-SNAPSHOT.jar $day_id
+
+
+
+
